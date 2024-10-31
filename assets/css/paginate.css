@@ -1,0 +1,98 @@
+.current {
+  color: yellow;
+}
+
+#pagin li {
+  display: inline-block;
+}
+
+.sbwprev {
+  cursor: pointer;
+}
+
+.sbwnext {
+  cursor: pointer;
+}
+
+.last{
+  cursor:pointer;
+  margin-left:5px;
+}
+
+.first{
+  cursor:pointer;
+  margin-right:5px;
+}
+
+
+
+
+
+/* Custom customization here */
+
+#showingpageof {
+    margin-top: 2%;
+    display: block;
+    margin-bottom: 1%;
+    background-color: blue;
+    color: white;
+    padding: 1%;
+}
+
+
+ul#pagin {
+    list-style: none;
+    display: inline-flex;
+}
+
+
+
+li.sbwprev {
+    background-color: blue;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    border-radius: 2px;
+    font-size: 1.3rem;
+    margin-right: 2%;
+	color: white;
+}
+
+
+
+li.sbwnext {
+    background-color: blue;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    border-radius: 2px;
+    font-size: 1.3rem;
+    margin-left: 2%;
+	color: white;
+}
+
+
+
+li button.btno {
+    display: block;
+    background-color: blue;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 2px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    text-decoration: none;
+    float: left;
+    margin-right: 4px;
+    color: white;
+	font-size: 1.3rem;
+}
+
+
+.btno.current {
+    background-color: black;
+}
+
+

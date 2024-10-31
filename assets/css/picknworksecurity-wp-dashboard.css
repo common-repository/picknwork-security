@@ -1,0 +1,737 @@
+.pnw-list-table tr:nth-child(even) {
+    background-color: #c5c5ec;
+}
+
+
+.pnw-list-table tr:nth-child(odd) {
+    background-color: white;
+}
+
+
+.pc-admin-left {
+    float: left;
+    width: 30%;
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-right: 5%;
+}
+
+
+.pc-admin-right {
+    float: left;
+    margin-bottom: 2%;
+}
+
+
+.pnw-success {
+    background-color: #84d20c;
+    color: white;
+    text-align: center;
+    padding: 1%;
+    border-radius: 10px;
+    font-size: larger;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1%;
+}
+
+
+
+.pnw-error {
+    background-color: red;
+    color: white;
+    text-align: center;
+    padding: 1%;
+    border-radius: 10px;
+    font-size: larger;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1%;
+}
+
+.adminsetting-messages {
+    position: absolute;
+    top: 0.3%;
+    left: 22%;
+}
+
+.pnw_messageclose {
+    float: right;
+    display: block;
+    background-color: black;
+    color: yellow;
+    border: 2px solid yellow;
+    font-size: larger;
+    margin-top: -1%;
+    font-weight: bold;
+}
+
+
+.pnw_messageclose:hover {
+    background-color: yellow;
+    color: black;
+}
+
+
+
+.pnw-setting-intro {
+    background-color: blue;
+    padding: 1%;
+    border-radius: 6px;
+    margin-bottom: 2%;
+    border-bottom: 5px solid black;
+    color: white;
+    font-size: 16px;
+    font-family: tahoma;
+}
+
+
+.pnwbuttoncenter {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.pnwbutton {
+    margin-top: 10px;
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+    border: 2px solid blue;
+}
+
+
+.pnwbutton:hover {
+    background-color: black;
+
+}
+
+
+
+
+.pnw-redirect-select-field {
+    margin-left: 2%;
+    width: 40%;
+}
+
+
+.pnw-send-left {
+    float: left;
+    margin-right: 2%;
+    width: 20%;
+	margin-top: 0.7%;
+}
+
+.pnw-send-field {
+    width: 75% !important;
+    height: 40px;
+    max-width: 75% !important;
+}
+
+
+.pnw-send-fieldtext {
+    width: 75% !important;
+    max-width: 75% !important;
+}
+
+
+
+
+
+/* Customization of the block wordpress dashboard for none admins starts here */
+
+.pnw-list-roles {
+    background-color: blue;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1%;
+	margin-bottom: 1%;
+	border-bottom: 5px solid gray;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+}
+
+
+.pc-role-head {
+    background-color: gainsboro;
+    padding: 0.5%;
+	text-align: left;
+	width: 25%;
+}
+
+
+.pc-role-option-head {
+    background-color: gainsboro;
+    padding: 0.5%;
+	text-align: left;
+}
+
+
+.pc-role-action-head {
+    background-color: gainsboro;
+    padding: 0.5%;
+	text-align: left;
+	width: 10%;
+}
+
+
+.pc-list-row {
+    background-color: white;
+	color: black;
+	height: 35px;
+}
+
+
+.pc-role-col {
+    padding-left: 0.5%;
+}
+
+
+/* customize all select field in the admin setting that has the class pc-admin-select-field */
+.pc-admin-select-field {
+    background-color: yellow !important;
+    border-radius: 20px !important;
+    height: 40px !important;
+    color: black !important;
+    font-size: 14px !important;
+    font-family: Arial;
+    width: 300px;
+}
+
+
+
+.pnw-mediaupload {
+    background-color: blue;
+    border-radius: 10px;
+    border: 3px blue;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    padding-left: 1%;
+    padding-right: 1%;
+    color: white;
+}
+
+
+
+
+.pnw-mediaremove {
+    background-color: red;
+    border-radius: 10px;
+    border: 3px blue;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    padding-left: 1%;
+    padding-right: 1%;
+    color: white;
+	margin-left: 0.5%;
+}
+
+
+.pnw-mediaupload:hover {
+    background-color: #0a0ad5;
+    border: 2px solid gray;
+}
+
+
+.pnw-mediaremove:hover {
+    background-color: #ce1a1a;
+    border: 2px solid gray;
+}
+
+
+
+
+/*  #######################################
+	CUSTOMIZATION OF PAGINATION BUTTON STARTS HERE 
+	######################################### */
+
+
+.pagebutton {
+    background-color: blue;
+    margin-right: 5px;
+    width: 40px;
+    display: inline-block;
+    height: 30px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 6px;
+    border-radius: 8px;
+    border: 2px solid gray;
+    font-size: 18px;
+    vertical-align: middle;
+}
+
+
+
+
+.pagebutton:hover {
+    background-color: black;
+}
+
+.pagebutton:active {
+    background-color: yellow;
+}
+
+
+.disabled {
+    pointer-events: none !important;
+    background-color: gainsboro !important;
+    border: 2px solid gainsboro !important;
+}
+
+
+.pageButtonDiv {
+    text-align: center;
+}
+
+
+
+
+
+
+
+/*  #######################################
+	TOGGLE CHECKBOX CUSTOMIZATION STARTS HERE 
+	######################################### */
+
+/* toggle in label designing */ 
+		.pnwtoggle { 
+			position : relative ; 
+			display : inline-block; 
+			width : 80px; 
+			height : 42px; 
+			background-color: #dcdcdc; 
+			border-radius: 30px; 
+			border: 2px solid gray; 
+			/* margin-left: 2%; */
+		} 
+				
+		/* After slide changes */ 
+		.pnwtoggle:after { 
+			content: ''; 
+			position: absolute; 
+			width: 42px; 
+			height: 42px; 
+			border-radius: 50%; 
+			background-color: blue; 
+			top: 0px; 
+			left: 0px; 
+			transition: all 0.5s; 
+		} 
+				
+				
+		/* Checkbox cheked effect */ 
+		.pnwcheckbox:checked + .pnwtoggle::after { 
+			left : 38px; 
+		} 
+				
+		/* Checkbox cheked toggle label bg color */ 
+		.pnwcheckbox:checked + .pnwtoggle { 
+			background-color: yellow; 
+		} 
+				
+		/* Checkbox vanished */ 
+		.pnwcheckbox { 
+			display : none !important; 
+		}
+
+		
+		.offtext {
+			margin-left: 23%;
+			font-family: Arial, Helvetica, sans-serif; 
+			font-weight: bold; 
+		}
+		
+		.ontext {
+			margin-left: 10%;
+			font-family: Arial, Helvetica, sans-serif; 
+			font-weight: bold; 
+		}
+
+/* *************************************************** */
+/* toggle checkbox customization ends here  */
+/* *************************************************** */
+
+
+
+
+
+/* ################################################## */
+/* BLOCKED PAGE CUSTOMIZATION STARTS HERE */
+/* ################################################## */
+
+/* customize the checkbox */
+input.checklist-pc {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+
+
+.pnw_delete_submit {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 30%;
+    font-size: large;
+}
+
+
+
+
+/* ################################################## */
+/* MESSAGE USERS CUSTOMIZATION STARTS HERE */
+/* ################################################## */
+.users_message_div {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: yellow;
+    padding: 2%;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+	border-top: 10px solid blue;
+	margin-top: 1%;
+}
+
+
+
+.pnw_users_role {
+    width: 50%;
+    margin-right: 15%;
+    float: right;
+}
+
+
+.pnw_users_subject {
+    width: 50%;
+    margin-right: 15%;
+    float: right;
+}
+
+
+
+.message_tips {
+    background-color: yellow;
+    text-align: center;
+    padding: 1%;
+    width: 72%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: -1%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+
+.pnw_users_message {
+    width: 100%;
+}
+
+
+.submit_pnw_message_users {
+	background: blue;
+	width: 20%;
+}
+
+
+
+
+
+
+/* Customize the subscription comfirm words */
+.confirm_words {
+    font-size: large;
+    border-top: 1px solid;
+    text-align: left;
+    display: block;
+}
+
+
+
+/* ################################################## */
+/*dashboard Sublinks customization starts here */
+/* ################################################## */
+.dashboard_sublinks_list_div {
+    text-align: center;
+  
+}
+
+
+
+.mbutton {
+    margin-right: 0.2%;
+    background-color: blue;
+    padding: 0.5%;
+    border-radius: 2px;
+    text-decoration: none;
+    color: white;
+}
+
+
+.mbuttonactive {
+    margin-right: 0.2%;
+    background-color: yellow;
+    padding: 0.5%;
+    border-radius: 2px;
+    text-decoration: none;
+    color: black;
+}
+
+
+
+.mbutton:hover {
+    background-color: yellow;
+    color: black;
+}
+
+
+.mbuttonactive:hover{
+    background-color: yellow;
+    color: black;
+}
+
+
+
+
+/* ##################################################### */
+/* Customization OF THE MARKETING PAGE STARTS HERE */
+/* ##################################################### */
+.add_single_div {
+    width: 44%;
+	height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: yellow;
+    padding: 2%;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top: 10px solid blue;
+    margin-top: 1%;
+	float: left;
+}
+
+
+.add_bulk_div {
+    width: 44%;
+	height: 300px;
+    margin-left: auto;
+    /* margin-right: auto; */
+    background-color: yellow;
+    padding: 2%;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top: 10px solid blue;
+    margin-top: 1%;
+	float: right;
+	margin-right: 1%;
+	
+}
+
+
+.add_single_tips {
+    background-color: yellow;
+    text-align: center;
+    padding: 1%;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: -1%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+	border-bottom: 5px solid blue;
+}
+
+
+
+.add_bulk_tips {
+    background-color: yellow;
+    text-align: center;
+    padding: 1%;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: -1%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+	border-bottom: 5px solid blue;
+}
+
+
+
+.marketing_addfield {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+	display: block;
+}
+
+
+.submit_add {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+
+
+.uploadtext {
+    margin-left: 20%;
+    margin-right: 5%;
+}
+
+
+
+
+
+.pnwPaginationSearchDiv {
+    width: 90%;
+	margin-left: 5%;
+	margin-bottom: 1%;
+}
+
+
+.pnw_searchtype {
+    height: 35px;
+}
+
+
+.pnw_searchvalue {
+    height: 35px;
+	width: 35%;
+}
+
+
+.pnw_submit_search {
+    background-color: blue;
+    color: white;
+    width: 10%;
+    height: 35px;
+    border-radius: 4px;
+}
+
+
+
+.pnw_nolistfound {
+    margin-top: 1%;
+    margin-left: 15%;
+    margin-right: auto;
+    width: 60%;
+    background-color: red;
+    text-align: center;
+    font-size: large;
+    padding: 1%;
+    border-radius: 20px;
+	color: white;
+}
+
+
+.pnw_nothingfound {
+    margin-top: 1%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    background-color: red;
+    text-align: center;
+    font-size: large;
+    padding: 1%;
+    border-radius: 20px;
+    color: white;
+    margin-bottom: 1%;
+    border-bottom: 4px solid yellow;
+}
+
+
+
+.pnwadmin_nav {
+    text-align: center;
+    background-color: #dcdcdc;
+    padding: 1%;
+	border-bottom: 6px solid blue;
+}
+
+
+.pnwadminNavButton {
+    height: 40px;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+    background-color: blue;
+    border: 4px solid blue;
+    border-radius: 4px;
+    color: white;
+}
+
+
+.pnwadminNavButton:hover {
+    border-bottom: 10px solid yellow;
+}
+
+
+.pnwPaginationSearchDiv {
+    margin-bottom: 2%;
+    text-align: center;
+}
+
+
+.pnwbutton-big {
+    background-color: black;
+    border: 4px solid gray;
+    color: white;
+    padding: 1%;
+    width: 260px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border-radius: 10px;
+	margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.pnwbutton-big:hover {
+    background-color: blue;
+}
+
+
+.dashboard_list_table_tips {
+    background-color: blue;
+    text-align: center;
+    padding: 1%;
+    width: 88%;
+    margin-left: auto;
+    margin-right: auto;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+	color: white;
+	font-size: 16px;
+}
+
+.pnw-list-table {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.filterline {
+    float: left;
+    display: block;
+}
+
+
+
+#wpfooter {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 10px 20px;
+    color: #50575e;
+}

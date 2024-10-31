@@ -1,0 +1,276 @@
+
+.pnw-error {
+    text-align: center;
+    background-color: red;
+    padding: 1%;
+    color: white;
+    font-size: 16px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 25px;
+}
+
+
+
+.pnw-success {
+    text-align: center;
+    background-color: #84d20c;
+    padding: 1%;
+    color: white;
+    font-size: 16px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 25px;
+}
+
+
+/* Login form styling */
+.pnwloginDiv {
+    background-color: white;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    border-radius: 10px;
+}
+
+.pnwloginlogo {
+    background-color: #0095eb;
+    text-align: center;
+    border-bottom: 10px solid gray;
+    padding: 4%;
+}
+
+.pnwLoginLogoHolder {
+    width: 200px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+}
+
+
+.pnwloginformDiv {
+    padding: 5%;
+}
+
+.loginintrotext {
+    text-align: center;
+    font-size: 1.6rem;
+}
+
+.pnwlogintitleDiv {
+    padding-left: 2%;
+}
+
+.pnwloginfield {
+    width: 100% !important;
+    height: 50px;
+    border-radius: 25px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+	text-align: center;
+
+}
+
+
+
+.pnwsubmitresendotp {
+    padding: 0 !important;
+    margin: 0 !important;
+    background-color: transparent !important;
+    color: blue !important;
+    box-shadow: none !important;
+}
+
+
+.sendOtpResponseDiv {
+    text-align: center;
+    background-color: gray;
+    color: white;
+}
+
+
+.pnwforget {
+    float: right;
+    margin-right: 5%;
+}
+
+#pnwresendotp{
+	
+	display: none !important;
+}
+
+.resendotplabel {
+    color: #0095eb;
+    margin-left: -1% !important;
+	cursor: pointer;
+}
+
+
+
+.pnwloginbutton {
+    width: 70%;
+    height: 34px;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    font-size: 24px;
+    display: block !important;
+    border-radius: 25px !important;
+	margin-top: 6%;
+}
+
+
+.pnwloginbutton:hover {
+    background-color: #2085c1;
+}
+
+
+.loginCancelDiv {
+    text-align: right;
+    padding-bottom: 2%;
+    padding-right: 3%;
+}
+
+
+
+
+/* Update phone style */
+.pnwupdatephoneDiv {
+    background-color: white;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    border-radius: 10px;
+}
+
+
+
+.pnwupdatephoneformDiv {
+    padding: 5%;
+}
+
+
+.updatephoneintrotext {
+    text-align: center;
+    font-size: 1.6rem;
+}
+
+.pnwupdatephonetitleDiv {
+    padding-left: 2%;
+}
+
+.pnwupdatephonefield {
+    width: 100% !important;
+    height: 50px;
+    border-radius: 25px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+	text-align: center;
+
+}
+
+
+.pnwupdatephonebutton {
+    width: 70%;
+    height: 34px;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    font-size: 24px;
+    display: block !important;
+    border-radius: 25px !important;
+	margin-top: 6%;
+}
+
+
+.pnwupdatephonebutton:hover {
+    background-color: #2085c1;
+}
+
+.updatephoneCancelDiv {
+    text-align: right;
+    padding-bottom: 2%;
+    padding-right: 3%;
+}
+
+
+
+
+/* Newsletter Subscription Form */
+.pnwsubscriptionBase {
+    background-color: white;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    border-radius: 10px;
+}
+
+.pnwsubscriptionformBase {
+    padding-left: 5%;
+	padding-right: 5%;
+}
+
+.pnwsubscription {
+    width: 100% !important;
+    text-align: center;
+    border-top-left-radius: 10px !important;
+    border-bottom-left-radius: 10px !important;
+	height: 40px !important;
+}
+
+.pnwsubscriptiontype {
+    width: 100% !important;
+    border-top-right-radius: 10px !important;
+    border-bottom-right-radius: 10px !important;
+    border-right: 12px solid #0095eb;
+	height: 40px !important;
+}
+
+.pnwsubscriptiongroup {
+    width: 100% !important;
+    border-top-right-radius: 10px !important;
+    border-bottom-right-radius: 10px !important;
+    border-right: 12px solid #0095eb !important;
+	height: 40px !important;
+	border-top-left-radius: 10px !important;
+    border-bottom-left-radius: 10px !important;
+}
+
+.pnwsubscriptionDiv {
+    width: 80%;
+    float: left;
+}
+
+.pnwsubscriptiontypeDiv {
+    width: 20%;
+    float: left;
+}
+
+.pnwsubscriptiongroupDiv {
+    margin-top: -3%;
+    float: left;
+    width: 100%;
+}
+
+
+.pnwsubscriptionotpDiv {
+    width: 100%;
+}
+
+.pnwsubscriptionotp {
+    width: 100% !important;
+    border-top-right-radius: 10px !important;
+    border-bottom-right-radius: 10px !important;
+    border-right: 12px solid #0095eb !important;
+	height: 40px !important;
+	border-top-left-radius: 10px !important;
+    border-bottom-left-radius: 10px !important;
+	text-align: center;
+}
